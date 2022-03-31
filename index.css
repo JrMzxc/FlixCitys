@@ -1,0 +1,491 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* navbar */
+.navbar-brand{
+    font-weight: 800;
+}
+@media (max-width: 575.98px) {
+    a.navbar-brand{
+        font-size: 12px;
+    }
+}
+@media (max-width: 575.98px) {
+    .navbar-toggler-icon{
+        font-size: 20px;
+    }
+}
+ul{
+    font-weight: 700;
+}
+li{
+    margin-left: 8px;
+    margin-right: 8px;
+}
+@media (max-width: 575.98px) {
+    li{
+        font-size: 11px;
+    }
+}
+@media (max-width: 575.98px){
+    input[type=text]{
+        font-size: 13px;
+        margin-left: 3%;
+        border: none;
+    }
+}
+@media (max-width: 575.98px){
+    .navbar .btn{
+        font-size: 10px;
+        margin-top: 3%;
+        margin-left: 3%;
+    }
+}
+
+
+
+/* header */
+.header{
+    background-color: #333333;
+    height: 480vh;
+}
+
+
+.header .text-sign{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+@media (max-width: 575.98px){
+    .header .text-sign{
+        font-size: 12px;
+        margin-top: 15px;
+        margin-bottom: 13px;
+    }
+}
+@media (max-width: 575.98px){
+    .header{
+        background-color: #333333;
+        height: 1380vh;
+    }
+}
+.container-fluid img{
+    width: 300px;
+    height: 450px;
+    padding: 15px 13px;
+    transition: 0.2s;
+}
+.container-fluid img:hover{
+    width: 300px;
+    height: 450px;
+    padding: 15px 13px;
+    transform: scale(1.06);
+}
+
+@media (max-width: 575.98px) { 
+    .container-fluid img{
+        width: 204px;
+        height: 270px;
+        padding: 5px 10px;
+    }
+ }
+.header .hd{
+    font-size: 30px;
+    padding: 60px 10px;
+}
+@media (max-width: 575.98px) { 
+    .header .hd{
+        font-size: 20px;
+        padding-top: 80px;
+    }
+ }
+
+
+/* footer */
+.footer{
+    background-color: black;
+    height: 20vh;
+}
+.text-footer{
+    padding-top: 40px;
+}
+
+
+/* every movies page*/
+.back{
+    background-color: #333333;
+    height: 100vh;
+}
+.back .container{
+    padding: 60px 10px;
+}
+.back .back-home{
+    font-size: 50px;
+    margin-left: 2%;
+}
+@media (max-width: 575.98px){
+    .back .back-home{
+        font-size: 30px;
+        margin-left: 2%;
+        position: absolute;
+        padding-top: 35%;
+    }
+}
+.back video{
+    width: 80vw;
+    height: 80vh;
+    object-fit: cover;
+    position: absolute;
+    top: 19%;
+    left: 10%;
+}
+@media (max-width: 575.98px){
+    .back video{
+        width: 93vw;
+        height: 35vh;
+        object-fit: cover;
+        position: absolute;
+        top: 45%;
+        left: 4%;
+    }
+}
+
+
+
+/* sign-up */
+
+.headers{
+   background: #093637;
+   height: 100vh;
+}
+.headers h1{
+    font-weight: 700;
+}
+@media (max-width: 575.98px){
+    .headers h1{
+        font-size: 17px;
+    }
+}
+.headers .box{
+    width: 500px;
+    height: 450px;
+    background-color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px gray;
+    padding: 50px 30px;
+    transform: translate(-50%,-50%);
+}
+@media (max-width: 575.98px){
+    .headers .box{
+        width: 210px;
+        height: 250px;
+       background-color: white;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        border-radius: 25px;
+        box-shadow: 3px 3px 10px gray;
+        padding: 40px 20px;
+        transform: translate(-50%,-50%);
+    }
+}
+.headers label{
+    display: block;
+    padding: 10px;
+    font-size: 17px;
+    font-weight: 700;
+}
+@media (max-width: 575.98px){
+    .headers label{
+        display: block;
+        padding: 7px;
+        font-size: 10px;
+        font-weight: 700;
+    }
+}
+.headers input[type=text],input[type=password]{
+    padding: 9px;
+    width: 100%;
+    
+    
+}
+@media (max-width: 575.98px){
+    .headers input[type=text],input[type=password]{
+        padding: 7px;
+        margin-left: 5px;
+        width: 100%;
+        font-size: 60%;
+        border: 1px solid black;
+    }
+}
+.headers .button{
+    position: absolute;
+    margin-top: 6%;
+    margin-left: 1%;
+}
+@media (max-width: 575.98px){
+    .headers .button{
+    position: absolute;
+    margin-top: 6%;
+    margin-left: 3%;
+    font-size: 12px;
+}
+}
+.headers button{
+    padding: 9px 10px;
+    width: 140%;
+    color: white;
+    background-color: rgb(52, 137, 206);
+}
+@media (max-width: 575.98px){
+    .headers button{
+        padding: 2px 2px;
+        width: 110%;
+        color: white;
+        background-color: rgb(52, 137, 206);
+    }
+}
+
+
+/* gcash */
+.gcash{
+    height: 100vh;
+    background-color: #093637;
+}
+.gcash .box{
+    width: 400px;
+    height: 350px;
+    background-color: white;
+    border-radius: 15px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    box-shadow: 2px 3px 5px black;
+    transform: translate(-50%,-50%);
+}
+@media (max-width: 575.98px){
+    .gcash .box{
+        width: 200px;
+        height: 250px;
+        background-color: white;
+        border-radius: 15px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        box-shadow: 2px 3px 5px black;
+        transform: translate(-50%,-50%);
+    }
+}
+.gcash .number{
+    line-height: 8rem;
+    font-weight: 800;
+    font-size: 40px;
+}
+@media (max-width: 575.98px){
+    .gcash .number{
+        line-height: 3rem;
+        font-weight: 800;
+        font-size: 18px;
+    }
+}
+
+.gcash .gcash-name{
+    font-size: 30px;
+    font-weight: 600;
+}
+@media (max-width: 575.98px){
+    .gcash .gcash-name{
+        font-size: 17px;
+        font-weight: 600;
+    }
+}
+
+
+
+
+
+/* horror.html */
+.horror{
+    background-color: #333333;
+    height: 180vh;
+}
+
+
+.horror .text-sign{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+@media (max-width: 575.98px){
+    .horror .text-sign{
+        font-size: 15px;
+        margin-top: 15px;
+        margin-bottom: 13px;
+    }
+}
+@media (max-width: 575.98px){
+    .horror{
+        background-color: #333333;
+        height: 480vh;
+    }
+}
+.container-fluid img{
+    width: 300px;
+    height: 450px;
+    padding: 15px 13px;
+    transition: 0.2s;
+}
+.container-fluid img:hover{
+    width: 300px;
+    height: 450px;
+    padding: 15px 13px;
+    transform: scale(1.06);
+}
+
+@media (max-width: 575.98px) { 
+    .container-fluid img{
+        width: 204px;
+        height: 270px;
+        padding: 5px 10px;
+    }
+ }
+.horror .hd{
+    font-size: 30px;
+    padding: 60px 10px;
+}
+@media (max-width: 575.98px) { 
+    .horror .hd{
+        font-size: 20px;
+        padding-top: 80px;
+    }
+ }
+
+
+
+
+
+/*adventure.html */
+ .adventure{
+    background-color: #333333;
+    height: 180vh;
+}
+
+
+.adventure .text-sign{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+@media (max-width: 575.98px){
+    .adventure .text-sign{
+        font-size: 15px;
+        margin-top: 15px;
+        margin-bottom: 13px;
+    }
+}
+@media (max-width: 575.98px){
+    .adventure{
+        background-color: #333333;
+        height: 480vh;
+    }
+}
+.container-fluid img{
+    width: 300px;
+    height: 450px;
+    padding: 15px 13px;
+    transition: 0.2s;
+}
+.container-fluid img:hover{
+    width: 300px;
+    height: 450px;
+    padding: 15px 13px;
+    transform: scale(1.06);
+}
+
+@media (max-width: 575.98px) { 
+    .container-fluid img{
+        width: 204px;
+        height: 270px;
+        padding: 5px 10px;
+    }
+ }
+.adventure .hd{
+    font-size: 30px;
+    padding: 60px 10px;
+}
+@media (max-width: 575.98px) { 
+    .adventure .hd{
+        font-size: 20px;
+        padding-top: 80px;
+    }
+ }
+
+
+
+
+
+
+ /*animation.html*/
+ .animation{
+    background-color: #333333;
+    height: 180vh;
+}
+
+
+.animation .text-sign{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+@media (max-width: 575.98px){
+    .animation .text-sign{
+        font-size: 15px;
+        margin-top: 15px;
+        margin-bottom: 13px;
+    }
+}
+@media (max-width: 575.98px){
+    .animation{
+        background-color: #333333;
+        height: 483vh;
+    }
+}
+.container-fluid img{
+    width: 300px;
+    height: 450px;
+    padding: 15px 13px;
+    transition: 0.2s;
+}
+.container-fluid img:hover{
+    width: 300px;
+    height: 450px;
+    padding: 15px 13px;
+    transform: scale(1.06);
+}
+
+@media (max-width: 575.98px) { 
+    .container-fluid img{
+        width: 204px;
+        height: 270px;
+        padding: 5px 10px;
+    }
+ }
+.animation .hd{
+    font-size: 30px;
+    padding: 60px 10px;
+}
+@media (max-width: 575.98px) { 
+    .animation .hd{
+        font-size: 20px;
+        padding-top: 80px;
+    }
+ }
